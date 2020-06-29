@@ -2481,7 +2481,7 @@ input, select, textarea {
 			display: inline-block;
 			height: 6em;
 			line-height: 5.65em;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 			text-align: center;
 			width: 6em;
 		}
@@ -4125,3 +4125,32 @@ input, select, textarea {
 					}
 
 	}
+
+.iconify {
+	color: #754ABD;
+	font-size: 75px;
+	transition: font-size 0.25s ease-in-out;
+}
+
+.iconify:hover {
+	font-size: 100px;
+}
+
+[class*="devicon-"] {
+	font-size: 75px;
+	height: 120px;
+	width: 120px;
+	transition: font-size 0.25s ease-in-out;
+}
+
+[class*="devicon-"]:hover {
+	font-size: 100px;
+}
+
+.col-5 h3 {
+	margin-top: 10px;
+}
+
+.col-5 {
+	height: 200px;
+}
