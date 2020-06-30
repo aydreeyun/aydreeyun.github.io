@@ -3161,7 +3161,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style4 .content {
-			border-color: #555;
+			border-color: steelblue;
 		}
 
 		.spotlight.inactive .content {
@@ -3211,7 +3211,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 5.5em 0 4em 0;
+		padding: 5em 0 4em 0;
 	}
 
 		.wrapper.style2 {
@@ -4149,6 +4149,7 @@ input, select, textarea {
 
 .col-5 h3 {
 	margin-top: 10px;
+	font-size: 20px;
 }
 
 .col-5 {
