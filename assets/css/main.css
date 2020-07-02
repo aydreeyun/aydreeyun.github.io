@@ -72,7 +72,12 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+	resize: vertical;
 }
+
+/* .textarea::after {
+	background: transparent;
+} */
 
 /* Basic */
 
@@ -114,13 +119,13 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		/* color: #e44c65; */
-		color: #999;
+		color: #d9d9d9;
 		text-decoration: none;
 	}
 
 		a:hover {
 			/* color: #e44c65 !important; */
-			color: #dddddd !important;
+			color: #fff !important;
 			border-bottom-color: transparent;
 		}
 
@@ -873,6 +878,7 @@ input, select, textarea {
 
 				.row.gtr-50.gtr-uniform > * {
 					padding-top: 1.25em;
+					margin: 0 auto;
 				}
 
 		.row {
@@ -3147,7 +3153,7 @@ input, select, textarea {
 
 		.spotlight.style1 .content {
 			/* border-color: #e44c65; */
-			border-color: steelblue;
+			border-color: #08F;
 		}
 
 		.spotlight.style2 .content {
@@ -3216,7 +3222,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			/* background: #e44c65; */
-			background: steelblue;
+			background: #08F;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
